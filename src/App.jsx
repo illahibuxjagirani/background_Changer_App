@@ -15,10 +15,10 @@ let [welcome, setWelcome] = useState("")
     <br /> <br /> <br /> {text} 
     </h1>
 
-<div className='flex flex-col w-[90%] gap-3 '>
+<div className='flex flex-col w-fit gap-3 px-5 '>
 
 
-    <div className='bg-slate-300 p-4 rounded-xl gap-2 flex flex-wrap'>
+    <div className='bg-slate-300 p-4 rounded-xl gap-2 flex flex-wrap justify-center'>
 
       <button 
 
