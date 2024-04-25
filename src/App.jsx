@@ -10,7 +10,7 @@ let white = "text-white";
 let [welcome, setWelcome] = useState("")
   return (
    <>
-   <div className={`${bg} h-screen w-screen flex flex-col justify-between items-center py-10 transition-bg duration-700`}>
+   <div className={`${bg} h-screen w-screen flex flex-col justify-between items-center py-16 transition-bg duration-700`}>
     <h1 className={`${color} text-center font-bold text-3xl`}>{welcome}
     <br /> <br /> <br /> {text} 
     </h1>
