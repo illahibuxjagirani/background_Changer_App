@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
 // let bgColor = "bg-black"
-let [bg, setBg] = useState("bg-black")
+let [bg, setBg] = useState("")
 let [color, setColor] = useState("text-white");
 let [text, setText] = useState('')
 let white = "text-white";
