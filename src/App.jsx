@@ -14,7 +14,7 @@ let white = "text-white";
     <br /> <br /> <br /> {text} 
     </h1>
 
-    <div className='bg-slate-300 w-[60%] p-4 rounded-xl gap-2 flex justify-between sm:flex-wrap sm:text-sm sm:gap-1'>
+    <div className='bg-slate-300 w-[60%] p-4 rounded-xl gap-2 flex justify-between flex-wrap lg:flex-nowrap sm:text-sm sm:gap-1'>
 
       <button 
 
