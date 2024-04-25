@@ -10,12 +10,15 @@ let white = "text-white";
 let [welcome, setWelcome] = useState("")
   return (
    <>
-   <div className={`${bg} h-screen w-full flex flex-col justify-between items-center py-14 transition-bg duration-700`}>
+   <div className={`${bg} h-screen w-screen flex flex-col justify-between items-center py-10 transition-bg duration-700`}>
     <h1 className={`${color} text-center font-bold text-3xl`}>{welcome}
     <br /> <br /> <br /> {text} 
     </h1>
 
-    <div className='bg-slate-300 w-[90%] p-4 rounded-xl gap-2 flex justify-between flex-wrap lg:flex-nowrap sm:text-sm sm:gap-1'>
+<div className='flex flex-col w-[90%] gap-3 '>
+
+
+    <div className='bg-slate-300 p-4 rounded-xl gap-2 flex flex-wrap'>
 
       <button 
 
@@ -134,7 +137,8 @@ let [welcome, setWelcome] = useState("")
       onClick={
         () => { window.location.reload()
         }}
-         className='bg-black text-white px-4 py-1 rounded-xl font-bold hover:bg-slate-800'>Back to Home</button>
+      className='bg-slate-400 text-black px-4 py-1 rounded-xl font-bold hover:bg-slate-800 w-auto hover:text-white'>Back to Home</button>
+      </div>
    </div>
    </>
   )
